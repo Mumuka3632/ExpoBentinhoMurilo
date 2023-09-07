@@ -1,0 +1,157 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+div.principal{
+    width: 80vw;
+    height: 100vh;
+    background-color: #FF731D;
+    position: relative;
+    margin-left: 10vw;
+    
+
+}
+
+div.center{
+    width: 80vw;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #FF731D;
+    position: absolute;
+    flex-direction: column;
+}
+
+div.barra{
+    width: 10vw;
+    height: 100vh;
+    background-color: #113B8F;
+    display: flex;
+    float: left;
+}
+
+div.barra2{
+    width: 10vw;
+    height: 100vh;
+    background-color: #113B8F;
+    display: flex;
+    float: right;
+}
+
+.container1 {
+    text-align: center;
+
+    padding: 20px;
+    background-color: #FFF7E9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container1 {
+    position: relative;
+    display: inline-block;
+
+}
+.container2 {
+    text-align: center;
+    top: -240px;
+    right: -775px;
+    padding: 20px;
+    background-color: #FFF7E9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container2 {
+    position: relative;
+    display: inline-block;
+
+}
+
+.m1{
+    width: 64px;
+    height: 64px;
+}
+
+.informacoes {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFF7E9;
+    padding: 10px;  
+}
+
+.container2:hover .informacoes {
+    display: block;
+}
+
+h1 {
+    color: #113B8F;
+    font-size: 45px;
+
+}
+
+h2 {    
+    color: #FF731D;
+    font-size: 35px;
+}
+
+p {
+    color: #113B8F;
+    text-align: center;
+    font-size: 20px;
+}
+
+.subtitulo1{
+    width: 80vw;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+    display: flex;   
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+    
+}
+
+.section{
+    background-color: #FF731D;
+    position: inherit;
+    top: 500px;
+    display: flex;   
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.texto1{
+
+    width: 600px;
+    height: 400px;
+    background-color:#FFF7E9 ;
+    font-size: 20px;
+    color: #113B8F;
+    text-align: justify;
+    overflow-wrap: break-word;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.texto2{
+
+    width: 600px;
+    height: 400px;
+    background-color:#FFF7E9 ;
+    font-size: 20px;
+    color: #113B8F;
+    text-align: justify;
+    overflow-wrap: break-word;
+    padding: 10px;
+    border-radius: 10px;
+}
